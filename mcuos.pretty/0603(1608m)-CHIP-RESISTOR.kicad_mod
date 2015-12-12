@@ -1,4 +1,4 @@
-(module "0603(1608m)-CHIP-RESISTOR" (layer F.Cu)
+(module "0603(1608m)-CHIP-RESISTOR" (layer F.Cu) (tedit 0)
   (fp_text reference "0603(1608m)-CHIP-RESISTOR" (at 0 1.905) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.1524)))
   )
@@ -19,4 +19,9 @@
   (fp_line (start 0.8 -0.4) (end -0.8 -0.4) (layer F.SilkS) (width 0.2032))
   (pad 1 smd rect (at -0.8 0) (size 0.9 1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.8 0) (size 0.9 1) (layers F.Cu F.Paste F.Mask))
+  (model Resistors_SMD.3dshapes/R_0603.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
