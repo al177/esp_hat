@@ -29,17 +29,16 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:esp_hat
-LIBS:esp_hat-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "ESP HAT"
+Date "2015-12-11"
+Rev "v0.1"
+Comp "Andrew Litt"
+Comment1 "https://github.com/al177/esp_hat"
 Comment2 ""
 Comment3 ""
 Comment4 ""
