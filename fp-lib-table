@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name mcuos)(type KiCad)(uri "$(KIPRJMOD)\\mcuos.pretty")(options "")(descr ""))
-  (lib (name esp_hat)(type KiCad)(uri "$(KIPRJMOD)\\esp_hat.pretty")(options "")(descr ""))
-  (lib (name SH_Antennas)(type KiCad)(uri "$(KIPRJMOD)\\SH_Antennas.pretty")(options "")(descr ""))
+  (lib (name mcuos)(type KiCad)(uri "$(KIPRJMOD)/mcuos.pretty")(options "")(descr ""))
+  (lib (name esp_hat)(type KiCad)(uri "$(KIPRJMOD)/esp_hat.pretty")(options "")(descr ""))
+  (lib (name SH_Antennas)(type KiCad)(uri "$(KIPRJMOD)/SH_Antennas.pretty")(options "")(descr ""))
 )
