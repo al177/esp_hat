@@ -3,7 +3,7 @@
   (general
     (links 223)
     (no_connects 0)
-    (area 56.808999 79.875 134.19881 117.47626)
+    (area 56.924999 84.924999 130.075001 115.075001)
     (thickness 1.6)
     (drawings 18)
     (tracks 522)
@@ -68,7 +68,7 @@
     (pad_drill 0.4)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFE7F7F)
+    (visible_elements 7FFFFF7F)
     (pcbplotparams
       (layerselection 0x010f8_80000001)
       (usegerberextensions true)
@@ -185,7 +185,7 @@
     (add_net GND)
   )
 
-  (module esp_hat:GS3 (layer F.Cu) (tedit 5686E3A7) (tstamp 5686E275)
+  (module esp_hat:GS3 (layer F.Cu) (tedit 5686EFE2) (tstamp 5686E275)
     (at 104.5 93.15 90)
     (descr "Pontet Goute de soudure")
     (path /5686E4DE)
@@ -193,7 +193,7 @@
     (fp_text reference P2 (at 1.524 0 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CH_PD (at 1.524 0 180) (layer F.SilkS)
+    (fp_text value CHIP_EN (at 1.7 0 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.125)))
     )
     (fp_line (start -0.889 -1.905) (end -0.889 1.905) (layer F.SilkS) (width 0.15))
