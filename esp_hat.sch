@@ -29,13 +29,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:esp_hat
+LIBS:esp_hat-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ESP HAT"
-Date "2015-12-31"
+Date "2016-01-01"
 Rev "v0.2"
 Comp "Andrew Litt"
 Comment1 "https://github.com/al177/esp_hat"
@@ -278,7 +279,7 @@ F 3 "" H 1700 5050 50  0000 C CNN
 $EndComp
 Text GLabel 8550 3750 0    39   BiDi ~ 0
 GPIO5
-Text GLabel 2350 4050 0    39   Input ~ 0
+Text GLabel 1600 4400 2    39   Input ~ 0
 GPIO5
 $Comp
 L GND #PWR06
@@ -346,7 +347,6 @@ NoConn ~ 8700 3350
 NoConn ~ 8700 3450
 NoConn ~ 9200 3450
 NoConn ~ 9200 3550
-NoConn ~ 8700 3850
 NoConn ~ 8700 3950
 NoConn ~ 8700 4050
 NoConn ~ 9200 4250
@@ -989,4 +989,33 @@ Connection ~ 6500 1600
 Wire Wire Line
 	6350 1600 6350 1750
 Connection ~ 6350 1600
+Text GLabel 8550 3850 0    39   BiDi ~ 0
+GPIO6
+Wire Wire Line
+	8550 3850 8700 3850
+$Comp
+L CONN_01X03 P2
+U 1 1 5686E4DE
+P 1200 4300
+F 0 "P2" H 1200 4500 50  0000 C CNN
+F 1 "CONN_01X03" V 1300 4300 50  0000 C CNN
+F 2 "esp_hat:GS3" H 1200 4300 50  0001 C CNN
+F 3 "" H 1200 4300 50  0000 C CNN
+	1    1200 4300
+	-1   0    0    1   
+$EndComp
+Text GLabel 1600 4200 2    39   Input ~ 0
+GPIO6
+Wire Wire Line
+	2350 4050 2350 4300
+Wire Wire Line
+	2350 4300 1400 4300
+Wire Wire Line
+	1400 4200 1600 4200
+Wire Wire Line
+	1400 4400 1600 4400
+Wire Wire Line
+	1450 4300 1450 4400
+Connection ~ 1450 4400
+Connection ~ 1450 4300
 $EndSCHEMATC
